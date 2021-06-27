@@ -1,0 +1,73 @@
+html {
+    scroll-behavior: smooth;
+  }
+div{
+margin: 0;
+
+}
+body{
+    overflow: hidden;
+    overflow-y: scroll;
+
+}
+
+.nav-box{
+    background-color: white;
+}
+
+.nav-box ul li a{
+    
+    color: black;
+    font-size: 1.2em;
+}
+.nav-box ul li a:hover{
+    
+    color: teal;
+    background-color: aliceblue;
+}
+
+.home-box{
+    background: rgba(0,0,0,.7);
+    padding:15% ;
+    margin: 0;
+}
+
+.home-slide-box1 h1{
+    color: white;
+    text-align: center;
+}
+
+.home-slide-box1 p{
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.about-section h1{
+text-align: center;
+color: teal;
+}
+.about-section p{
+text-align: center;
+font-size: 1.5em;
+}
+
+.about-section div p{
+margin-top: -0.8rem;
+}
+
+
+.team-slide-box1{
+/* display: flex;
+flex-direction: column;
+align-items: center;
+align-self: center;
+justify-content: center; */
+}
+.team-slide-box1 p{
+text-align: center;
+}
+
+#body{
+    background-image: linear-gradient(#f5f6fa, #f5f6fa);
+}
